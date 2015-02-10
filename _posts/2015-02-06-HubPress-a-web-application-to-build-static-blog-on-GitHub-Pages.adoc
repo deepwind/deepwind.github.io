@@ -1,8 +1,19 @@
-= the manmoy of 2014
+
+
+
+
+= HubPress: a web application to build static blog on GitHub Pages.
 :figure-caption!:
-:published_at: 2015-2-10 
-:hp-tags: 2014, 回忆
+:published_at: 2015-02-06
+:hp-tags: news
 :hp-image: https://raw.githubusercontent.com/deepwind/images/master/blog/2015210233704.jpg
+:url-hubpress: http://hubpress.io/
+:url-jekyll: http://jekyllrb.com/
+:url-octopress: http://octopress.org/
+:url-awestruct: http://awestruct.org/
+:url-github: https://github.com/
+:url-gh-pages: https://pages.github.com/
+:url-asciidoc:  http://www.methods.co.nz/asciidoc/userguide.html
 
 
 
