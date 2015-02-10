@@ -1,8 +1,4 @@
-
-
-
-
-= 2014
+= 哈哈哈
 :figure-caption!:
 :published_at: 2015-02-06
 :hp-tags: news
