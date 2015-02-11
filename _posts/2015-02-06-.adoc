@@ -1,50 +1,8 @@
-= 哈哈哈
+= 闲吾忆
+:hp-filename: the-memory-of-2014
 :figure-caption!:
 :published_at: 2015-02-06
-:hp-tags: news
+:hp-tags: 2014，回忆
 :hp-image: https://raw.githubusercontent.com/deepwind/images/master/blog/2015210233704.jpg
-:url-hubpress: http://hubpress.io/
-:url-jekyll: http://jekyllrb.com/
-:url-octopress: http://octopress.org/
-:url-awestruct: http://awestruct.org/
-:url-github: https://github.com/
-:url-gh-pages: https://pages.github.com/
-:url-asciidoc:  http://www.methods.co.nz/asciidoc/userguide.html
 
-
-
-As {url-jekyll}[Jekyll], {url-octopress}[Octopress] or {url-awestruct}[Awestruct], the goal of {url-hubpress}[HubPress] is to build static content on {url-gh-pages}[Github Pages]. 
-
-These tools are really great, but we wanted to provide a tool more *user-friendly* and *accessible* for the majority of people.
-Another point is that we love the {url-asciidoc}[Asciidoc] markup and we looked for a way to contribute to its development. 
-
-That's why we made {url-hubpress}[HubPress].
-
-
-With the usual tools, to build a blog on {url-gh-pages}[Github Pages] require a minimum of technical knowledge (you need to know git, to install ruby, to learn a build process ...).
-
-To provide a better user experience, we made a web interface based on http://asciidoctor.org/[Asciidoctor] with the https://github.com/asciidoctor/asciidoctor.js[javascript] version.
-
-With HubPress, all you need is an internet connection and a {url-github}[GitHub] account, *that's all*!
-
-
-.HubPress editor
-image::http://hubpress.io/img/editor.png[]
-
-To save or publish a post, just one click is necessary. As we focus on accessibility, you just have to focus on writing.
-
-
-{url-hubpress}[HubPress] is : 
-
-* *easy to use*, without technical skills required, 
-* *free*, no subscription, no server's rent,
-* *yours*, once {url-hubpress}[HubPress] is installed in your repository {url-github}[GitHub], you can live alone if you want. 
-
-Please find here attached an "how to" video which shows you the simplicity to publish your own blog post with hubpress.
-
-video::7gP3i4tHlRM[youtube]
-
-Reminder: Hubpress is still in preview. So your feedbacks are more than welcome.
-If you want to give it a try, you're welcome https://github.com/HubPress/hubpress.io
-
-Anthonny. 
+眨眼间毕业一年多了，这一年，啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啊啊啊啊啊啊啊啊啊啊啊！
