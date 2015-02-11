@@ -1,5 +1,4 @@
-= test
-:hp-filename: the-memory-of-2014
+= the-memory-of-2014
 :figure-caption!:
 :published_at: 2015-02-06
 :hp-tags: 2014，回忆
