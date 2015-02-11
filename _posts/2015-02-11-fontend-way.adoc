@@ -1,6 +1,6 @@
 = fontend way
 :published_at: 2015-02-11
-:hp-tags: 2014，回忆
+:hp-tags: 2014
 :hp-image: https://raw.githubusercontent.com/senola/pictures/master/background/background25.jpg
 
 大千世界，齐路万千。一不小心踩坑，深陷囵圄。几番周折，才得以逃脱。。。痛，来自爱。因爱生痛，痛的彻底，痛的刻骨。大爱前端，所以逢坑必填。试想，多年之后回首，万千平路，皆吾填之。故，坑，必填也。
