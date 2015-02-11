@@ -1,4 +1,4 @@
-= 闲吾忆
+= test
 :hp-filename: the-memory-of-2014
 :figure-caption!:
 :published_at: 2015-02-06
