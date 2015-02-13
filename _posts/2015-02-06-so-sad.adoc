@@ -2,8 +2,7 @@
 :hp-filename: the-memory-of-2014
 :figure-caption!:
 :published_at: 2015-02-06
-:hp-tags: 2014，回忆
-:hp-image: https://raw.githubusercontent.com/senola/pictures/master/background/background7.jpg
+:hp-image: https://raw.githubusercontent.com/senola/pictures/master/background/background4.jpg
 
 so sad so sad , 又要改版，也是醉了 ！ 我要回家啊啊啊啊啊啊啊啊啊啊 
 
