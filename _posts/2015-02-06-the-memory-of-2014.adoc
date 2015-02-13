@@ -1,7 +1,6 @@
 = the-memory-of-2014
 :figure-caption!:
 :published_at: 2015-02-06
-:hp-tags: 2014，回忆
 :hp-image: https://raw.githubusercontent.com/deepwind/images/master/blog/2015210233704.jpg
 
 眨眼间毕业一年多了，这一年，啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啊啊啊啊啊啊啊啊啊啊啊！
