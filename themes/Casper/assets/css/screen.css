@@ -569,10 +569,8 @@ margin on the iframe, cause it breaks stuff. */
 }
 .blog-logo img:hover {
     box-shadow: 0 0 10px #fff;
-    -webkit-box-shadow: 0 0 10px #fff;
-    -webkit-transform: rotateZ(3600deg);
-    -moz-transform: rotateZ(3600deg);
-    transform: rotateZ(3600deg);
+    -moz-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
 }
 .back-button {
     -webkit-box-sizing: border-box;
