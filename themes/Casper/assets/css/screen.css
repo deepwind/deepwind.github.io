@@ -1371,9 +1371,9 @@ body:not(.post-template) .post-title {
         padding: 10% 0;
     }
 
-    .blog-logo img {
+    /*.blog-logo img {
         padding: 4px 0;
-    }
+    }*/
 
     .page-title {
         font-size: 4rem;
@@ -1495,7 +1495,7 @@ body:not(.post-template) .post-title {
     }
 
     .blog-logo img {
-        height: 26px;
+        height: 60px;
     }
 
     .back-button,
