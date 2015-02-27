@@ -39,7 +39,7 @@ html {
 }
 body { margin: 0; }
 a { background: transparent; }
-a:focus { outline: thin dotted; }
+a:focus { outline: none; }
 a:active, a:hover { outline: 0; }
 h1 { font-size: 2em; margin: 0.67em 0; }
 abbr[title] { border-bottom: 1px dotted; }
