@@ -1,4 +1,5 @@
 = the last day 
+:hp-post-title: 最后一天
 :published_at: 2015-02-13
 :hp-image: https://raw.githubusercontent.com/senola/pictures/master/background/background1.jpg
 
