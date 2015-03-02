@@ -1,5 +1,5 @@
 = so sad  
-:hp-filename: the-memory-of-2014
+:hp-post-title: the-memory-of-2014
 :figure-caption!:
 :published_at: 2015-02-06
 :hp-image: https://raw.githubusercontent.com/senola/pictures/master/background/background4.jpg
