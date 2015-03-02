@@ -1820,3 +1820,7 @@ body:not(.post-template) .post-title {
     box-sizing: border-box;
     border: rgba(105, 99, 95, 0.21) 0.4em solid;
 }
+/*文章标题大小*/
+.post-title {
+    font-size: 3.5rem;
+}
