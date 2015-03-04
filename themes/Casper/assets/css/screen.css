@@ -1807,7 +1807,7 @@ body:not(.post-template) .post-title {
 
 
 /**文章图片样式**/
-.imageblock .content{
+.imageblock .content img{
     -webkit-border-radius: 0.3em;
     -ms-border-radius: 0.3em;
     -o-border-radius: 0.3em;
