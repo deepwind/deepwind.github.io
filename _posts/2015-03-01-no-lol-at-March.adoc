@@ -2,7 +2,7 @@
 :hp-post-title: 「醒悟」三月不撸
 :published_at: 2015-03-01
 :hp-tags: LOL,三月,2015
-:hp-image: https://raw.githubusercontent.com/deepwind/images/master/blog/lol-2.jpg
+:hp-image: https://raw.githubusercontent.com/deepwind/images/master/blog/lol-3.jpg
 
 三月，不撸。
 
@@ -17,6 +17,8 @@
 或许是生活中缺少了那么一点点存在感，也或许是少了那么点年轻人该有的朝气，游戏占据了我业余时间的绝大部分。
 
 喜欢游戏里那种主宰、拯救地球的感觉。所以宁愿多在虚拟的世界里挣扎，也不愿在现实生活里徘徊。只是，在虚拟与现实交接的那一刻很迷茫，很空洞。
+
+image::https://raw.githubusercontent.com/deepwind/images/master/blog/lol-4.jpg[]
 
 只是，没有一座那样的「幻城」。
 
