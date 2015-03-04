@@ -1822,5 +1822,5 @@ body:not(.post-template) .post-title {
 }
 /*文章标题大小*/
 .post-title {
-    font-size: 3.5rem;
+    font-size: 3.2rem !important;
 }
