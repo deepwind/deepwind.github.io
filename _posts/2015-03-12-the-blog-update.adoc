@@ -1,7 +1,7 @@
 = the-blog-update
 :hp-post-title: 博客标题终于可以是中文了，吼吼~
 :published_at: 2015-03-12
-:hp-tags: 博客，文学，2015
+:hp-tags: 博客,文学,2015
 :hp-image: https://raw.githubusercontent.com/senola/pictures/master/background/background18.jpg
 
 经过这几天的努力，博客终于可以支持中文标题了！！嘎嘎嘎嘎！！！终于可以开始我的文学之旅喽~
