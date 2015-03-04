@@ -1,0 +1,5 @@
+= no-lol-at-March
+:hp-post-title: 三月不撸
+:published_at: 2015-03-01
+:hp-tags: LOL,三月,2015
+:hp-image: https://raw.githubusercontent.com/senola/pictures/master/background/background17.jpg
