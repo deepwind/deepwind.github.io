@@ -1065,8 +1065,13 @@ body:not(.post-template) .post-title {
    ========================================================================== */
 
 .post-head.main-header {
-    /*height: 65%;*/
+    height: 65%;
     min-height: 180px;
+    -webkit-animation: animatedBackground 40s linear infinite;
+       -moz-animation: animatedBackground 40s linear infinite;
+        -ms-animation: animatedBackground 40s linear infinite;
+         -o-animation: animatedBackground 40s linear infinite;
+            animation: animatedBackground 40s linear infinite;
 }
 
 .no-cover.post-head.main-header {
@@ -1827,7 +1832,19 @@ body:not(.post-template) .post-title {
     font-size: 3.2rem !important;
 }
 
-@-webkit-keyframes animatedBackground {
+@-moz-keyframes animatedBackground {
+    from { background-position: 0 0; }
+    to { background-position:  0 100%; }
+}
+@-o-keyframes animatedBackground {
+    from { background-position: 0 0; }
+    to { background-position:  0 100%; }
+}
+@-ms-keyframes animatedBackground {
+    from { background-position: 0 0; }
+    to { background-position:  0 100%; }
+}
+@keyframes animatedBackground {
     from { background-position: 0 0; }
     to { background-position:  0 100%; }
 }
