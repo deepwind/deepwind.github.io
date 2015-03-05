@@ -1820,6 +1820,7 @@ body:not(.post-template) .post-title {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     border: rgba(105, 99, 95, 0.21) 0.4em solid;
+    background-color: rgba(105, 99, 95, 0.21);
 }
 /*文章标题大小*/
 .post-title {
