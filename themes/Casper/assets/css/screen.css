@@ -1844,6 +1844,10 @@ body:not(.post-template) .post-title {
     from { background-position: 0 0; }
     to { background-position:  0 100%; }
 }
+@-webkit-keyframes animatedBackground {
+    from { background-position: 0 0; }
+    to { background-position:  0 100%; }
+}
 @keyframes animatedBackground {
     from { background-position: 0 0; }
     to { background-position:  0 100%; }
