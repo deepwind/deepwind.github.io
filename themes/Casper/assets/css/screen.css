@@ -868,9 +868,10 @@ body:not(.post-template) .post-title {
 }
 
 .post-template .post-date {
-    padding: 0;
+    /*padding: 0;
     margin: 0;
-    border: none;
+    border: none;*/
+    margin-top: 5px;
 }
 
 /* Stop .full-img from creating horizontal scroll - slight hack due to
