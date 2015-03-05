@@ -1,7 +1,7 @@
 = no-lol-at-March
 :hp-post-title: 「醒悟」三月不撸
 :published_at: 2015-03-01
-:hp-tags: LOL,三月,2015
+:hp-tags: 撸啊撸,三月,2015
 :hp-image: https://raw.githubusercontent.com/deepwind/images/master/blog/201534232515.jpg
 
 三月，不撸。
