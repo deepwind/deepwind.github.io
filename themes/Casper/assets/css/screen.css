@@ -1663,6 +1663,7 @@ body:not(.post-template) .post-title {
         margin: 0 -16px; 
         min-width: 0;
         max-width: 112%; */
+        border: rgba(105, 99, 95, 0.21) 0.2em solid !important;
     }
 
     .post-meta {
