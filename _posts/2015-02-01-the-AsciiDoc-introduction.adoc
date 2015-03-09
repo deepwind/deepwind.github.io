@@ -6,7 +6,7 @@
 
 AsciiDoc文档使用规则
 
-= 分段
+= 1.分段
 :hardbreaks:
 
 This journey begins one late Monday afternoon in Antwerp.
@@ -14,7 +14,6 @@ Our team desperately needs coffee, but none of us dare open the office door.
 
 To leave means code dismemberment and certain death.
 
-2.
 
 Rubies are red, +
 Topazes are blue.
@@ -23,13 +22,13 @@ Topazes are blue.
 Ruby is red.
 Java is black.
 
-= Line Break Doc Title
 :hardbreaks:
 
 Rubies are red,
 Topazes are blue.
 
 
+= 2.忠告
 
 NOTE: NOT ENOTE NOTE NOTE NOTE Wolpertingers are known to nest in server racks.   
 Enter at your own risk.
