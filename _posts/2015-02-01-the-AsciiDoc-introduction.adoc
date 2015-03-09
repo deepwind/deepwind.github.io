@@ -45,4 +45,67 @@ Enter at your own risk.
 CAUTION: 注意 注意  注意 Wolpertingers are known to nest in server racks.   
 Enter at your own risk.
 
-TIP： 注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意
+
+= 3.引用文本
+
+I can't believe it, we *won*!
+
+_italic phrase_
+
+__i__talic le__tt__ers
+
+*bold phrase*
+
+**b**old le**tt**ers
+
+*_bold italic phrase_*
+
+**__b__**old italic le**__tt__**ers
+
+`monospace phrase` and le``tt``ers
+
+`_monospace italic phrase_` and le``__tt__``ers
+
+`*monospace bold phrase*` and le``**tt**``ers
+
+`*_monospace bold italic phrase_*` and le``**__tt__**``ers
+
+The markup pass:[<u>下划线</u>] renders as underlined text.
+
+
+[subs="verbatim,macros"] 
+----
+I better not contain *bold* or _italic_ text.
+pass:quotes[But I should contain *bold* text.] 
+----
+
+= 4.增加html标签
+
+Type the word [userinput]#asciidoc# into the search bar. 
+
+生成 
+Type the word <span class="userinput">asciidoc</span> into the search bar. 
+
+= 5. Preventing substitution
+\*Stars* will appear as *Stars*, not as bold text.
+
+\&sect; will appear as an entity reference, not the &sect; symbol.
+
+\\__func__ will appear as __func__, not as emphasized text.
+
+\{two-semicolons} will appear {two-semicolons}, not resolved as ;;.
+
+= 5.列表
+
+----
+* Edgar Allen Poe
+* Sheri S. Tepper
+* Bill Bryson
+----
+
+----
+.Kizmet's Favorite Authors
+* Edgar Allen Poe
+* Sheri S. Tepper
+* Bill Bryson
+----
