@@ -107,7 +107,13 @@ Let's view the raw HTML of the link:view-source:https://deepwind.github.io/[潭�
 Let's view the raw HTML of the link:view-source:http://deepwind.github.io[潭之风，怡也!, window="_blank"].
 
 = 7 图片
-image::sunset.jpg[Sunset]
+
+image::https://raw.githubusercontent.com/senola/pictures/master/background/background26.jpg[Sunset]
+
+
+[[img-sunset]]
+.A mountain sunset
+image::https://raw.githubusercontent.com/senola/pictures/master/background/background26.jpg[Sunset, 300, 200, link="https://raw.githubusercontent.com/senola/pictures/master/background/background26.jpg"]
 
 
 = 8.列表
