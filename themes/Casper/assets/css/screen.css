@@ -1886,9 +1886,6 @@ body:not(.post-template) .post-title {
   font-weight: 400;
   cursor: default;
 }
-.senola-audio-player {
-    margin: 0;
-}
 .senola-audio-player h2 {
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
@@ -1901,6 +1898,7 @@ body:not(.post-template) .post-title {
 }
 .senola-audio-player li {
   display: inline-block;
+  margin: 0;
 }
 
 .senola-audio-cover {
