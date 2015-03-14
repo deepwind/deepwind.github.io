@@ -2113,7 +2113,7 @@ body:not(.post-template) .post-title {
         width: 100px;
     }
     .senola-audio-info {
-        -wekit-transform: translateX(-70px) translateY(-8px);
+        -webkit-transform: translateX(-70px) translateY(-8px);
           -moz-transform: translateX(-70px) translateY(-8px);
             -o-transform: translateX(-70px) translateY(-8px);
                transform: translateX(-70px) translateY(-8px);
