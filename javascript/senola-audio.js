@@ -21,10 +21,12 @@
 		playhead.style.width = playPercent + "px";
 
 		var secondsIn = Math.floor(((music.currentTime / duration) / 3.5) * 100);
-		if (secondsIn <= 9 ) {
-			timer.innerHTML = "0:0" + secondsIn;
-		} else {
-			timer.innerHTML = "0:" + secondsIn;
+		if (!isNaN(secondsIn)) {
+			if (secondsIn <= 9 ) {
+			    timer.innerHTML = "0:0" + secondsIn;
+			} else {
+				timer.innerHTML = "0:" + secondsIn;
+			}
 		}
 	}
 	play01.onclick = function() {
