@@ -1856,19 +1856,42 @@ body:not(.post-template) .post-title {
 
 /*音乐播放器样式*/
 .audio-player {
+  position: relative;
   height: 190px;
   width: 430px;
   background-color: #1E2125;
-  position: absolute;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  top: 50%;
+  /*top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);*/
+}
+.senola-audio-player h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13pt;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: white;
+  cursor: default;
+}
+
+.senola-audio-player h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 8pt;
+  font-weight: 400;
+  cursor: default;
+}
+
+.senola-audio-player h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13pt;
+  font-weight: 300;
+  color: white;
+  cursor: default;
 }
 .senola-audio-player{
   list-style: none;
