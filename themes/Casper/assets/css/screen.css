@@ -2129,6 +2129,9 @@ body:not(.post-template) .post-title {
     #senola-slider {
         width: 185px;
     }
+    .post-content .full-img {
+        border: 3px solid rgba(255, 255, 255, 0.32) !important;
+    }
 }
 
 @-webkit-keyframes senola-music-play {
