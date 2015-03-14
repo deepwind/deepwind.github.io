@@ -1,5 +1,5 @@
 = the-memory-of-2014
-:hp-post-title: 闲吾忆
+:hp-post-title: 音乐播放器测试
 :published_at: 2015-02-06
 :hp-image: https://raw.githubusercontent.com/senola/pictures/master/background/background7.jpg
 
