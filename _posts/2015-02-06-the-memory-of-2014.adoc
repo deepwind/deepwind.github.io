@@ -52,7 +52,7 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M8.7,6.9V18c0,0,0.2,1.4,1.8,0l8.1-4.8c0,0,1.2-1.1-1-2L9.8,6.5 C9.8,6.5,9.1,6,8.7,6.9z"/>
                 </g>
               </svg>
-              <svg id="senola-audio-pause02" class="audio-pause" viewBox="0 0 25 25" xml:space="preserve" style="margin-left: -45px;">
+              <svg id="senola-audio-pause02" class="audio-pause" viewBox="0 0 25 25" xml:space="preserve">
                 <g>
                   <rect x="6" y="4.6" width="3.8" height="15.7"/>
                   <rect x="14" y="4.6" width="3.9" height="15.7"/>
