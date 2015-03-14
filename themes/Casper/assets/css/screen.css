@@ -2109,6 +2109,7 @@ body:not(.post-template) .post-title {
     .senola-audio-cover {
         width: 150px;
         height: 150px;
+        z-index: 9999999;
     }
     .senola-audio-cover img {
         height: 100px;
