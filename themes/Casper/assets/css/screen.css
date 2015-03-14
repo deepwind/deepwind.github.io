@@ -1922,7 +1922,6 @@ body:not(.post-template) .post-title {
   border: 3px solid rgba(255, 255, 255, 0.32) !important;
 }
 .senola-audio-cover svg {
-  padding: 0 3px;
   width: 30px;
   height: 30px;
   x: 0px;
@@ -2008,7 +2007,6 @@ body:not(.post-template) .post-title {
 }
 
 .senola-audio-player .audio-play {
-  padding: 0 3px;
   width: 30px;
   height: 30px;
   x: 0px;
