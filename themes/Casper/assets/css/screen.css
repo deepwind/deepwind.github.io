@@ -2066,6 +2066,7 @@ body:not(.post-template) .post-title {
   height: 30px;
   position: absolute;
   cursor: pointer;
+  margin-left: -40px;
 }
 .senola-audio-player .audio-pause rect {
   fill: white;
