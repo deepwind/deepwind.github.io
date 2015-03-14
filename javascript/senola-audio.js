@@ -20,12 +20,31 @@
 		var playPercent = timelineWidth * (music.currentTime / duration);
 		playhead.style.width = playPercent + "px";
 
-		var secondsIn = Math.floor(((music.currentTime / duration) / 3.5) * 100);
+		var secondsIn = Math.floor(music.currentTime);
+		//时间处理
 		if (!isNaN(secondsIn)) {
 			if (secondsIn <= 9 ) {
-			    timer.innerHTML = "0:0" + secondsIn;
-			} else {
-				timer.innerHTML = "0:" + secondsIn;
+				timer.innerHTML = "00:0" + secondsIn;
+			} else if(secondsIn >= 10 && secondsIn <= 59){
+				timer.innerHTML = "00:" + secondsIn;
+			}else if (secondsIn > 60) {
+				var _min = (secondsIn - secondsIn % 60) / 60;
+				var _sec = secondsIn % 60;
+				if(_min <= 9) {
+					var min = "0" + _min + ":";
+					if(_sec <= 9) {
+						timer.innerHTML = min + "0" + _sec;
+					}else if(_sec >= 10){
+						timer.innerHTML = min + _sec;
+					}
+				}else if(_min >= 10) {
+					var min = _min + ":";
+					if(_sec <= 9) {
+						timer.innerHTML = min + "0" + _sec;
+					}else if(_sec >= 10){
+						timer.innerHTML = min + _sec;
+					}
+				}
 			}
 		}
 	}
