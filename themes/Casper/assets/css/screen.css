@@ -282,7 +282,7 @@ dl dd {
 }
 
 li {
-    margin: 0.4em 0;
+    /*margin: 0.4em 0;*/
 }
 
 li li {
@@ -1919,7 +1919,7 @@ body:not(.post-template) .post-title {
   bottom: 0;
   margin: auto;
   border-radius: 50%;
-  border: 3px solid rgba(255, 255, 255, 0.32);
+  border: 3px solid rgba(255, 255, 255, 0.32) !important;
 }
 .senola-audio-cover svg {
   padding: 0 3px;
@@ -2098,6 +2098,32 @@ body:not(.post-template) .post-title {
 }
 .senola-audio-expend svg:hover g polygon {
   fill: #EF6DBC;
+}
+@media only screen and (max-width: 500px) {
+    .audio-player {
+        width: 350px;
+        height: 150px;
+    }
+    .senola-audio-cover {
+        width: 150px;
+        height: 150px;
+    }
+    .senola-audio-cover img {
+        height: 100px;
+        width: 100px;
+    }
+    .senola-audio-info {
+        transform: translateX(-70px) translateY(-8px);
+    }
+    .senola-audio-info h2 {
+        margin-top: 5px;
+    }
+    .senola-audio-button-items .controls {
+        margin-top: 10px;
+    }
+    #senola-slider {
+        width: 185px;
+    }
 }
 
 @-webkit-keyframes senola-music-play {
