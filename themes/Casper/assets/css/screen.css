@@ -2104,6 +2104,7 @@ body:not(.post-template) .post-title {
     .audio-player {
         width: 350px;
         height: 150px;
+        max-width: 100%;
     }
     .senola-audio-cover {
         width: 150px;
@@ -2115,8 +2116,8 @@ body:not(.post-template) .post-title {
     }
     .senola-audio-info {
         position: relative;
-        left: -66px;
-        top: -5px;
+        left: -70px;
+        top: -8px;
     }
     .senola-audio-info h2 {
         margin-top: 5px;
