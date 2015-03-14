@@ -1979,7 +1979,7 @@ body:not(.post-template) .post-title {
 }
 
 #senola-slider {
-  width: 210px;
+  width: 200px;
   height: 4px;
   margin-top: 12px;
   background: #151518;
@@ -2046,7 +2046,6 @@ body:not(.post-template) .post-title {
   y: 0px;
   enable-background: new 0 0 25 25;
   margin-bottom: 5px;
-  cursor: not-allowed;
 }
 .senola-audio-button-items .step-backward g polygon {
   fill: #FEFEFE;
@@ -2059,7 +2058,6 @@ body:not(.post-template) .post-title {
   y: 0px;
   enable-background: new 0 0 25 25;
   margin-bottom: 5px;
-  cursor: not-allowed;
 }
 .step-foreward g polygon {
   fill: #FEFEFE;
@@ -2083,9 +2081,13 @@ body:not(.post-template) .post-title {
   stroke: #8F4DA9;
 }
 
-.senola-audio-player .step-backward g polygon:hover, .step-foreward g polygon:hover {
+.senola-audio-player .step-backward g polygon:hover{
   fill: #EF6DBC;
   cursor: pointer;
+}
+.step-foreward g polygon:hover {
+  fill: #EF6DBC;
+  cursor: not-allowed;
 }
 
 .senola-audio-player p {
@@ -2095,7 +2097,7 @@ body:not(.post-template) .post-title {
 
 .senola-audio-expend {
   padding: 0.5px;
-  cursor: pointer;
+  cursor: not-allowed;
 }
 .senola-audio-expend svg:hover g polygon {
   fill: #EF6DBC;
