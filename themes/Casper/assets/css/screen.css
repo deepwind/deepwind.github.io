@@ -1856,23 +1856,24 @@ body:not(.post-template) .post-title {
 
 /*音乐播放器样式*/
 .audio-player {
-  position: relative;
-  height: 190px;
-  width: 430px;
-  background-color: #1E2125;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  /*top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);*/
+    position: relative;
+    height: 190px;
+    width: 430px;
+    background-color: #1E2125;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    margin-top: -15px;
+    border-radius: 10px;
 }
 .senola-audio-player h1 {
   font-family: 'Open Sans', sans-serif;
-  font-size: 13pt;
+  font-size: 21px;
   font-weight: 600;
   text-transform: uppercase;
   color: white;
@@ -1885,19 +1886,18 @@ body:not(.post-template) .post-title {
   font-weight: 400;
   cursor: default;
 }
-
+.senola-audio-player {
+    margin: 0;
+}
 .senola-audio-player h2 {
   font-family: 'Open Sans', sans-serif;
-  font-size: 13pt;
+  font-size: 15px;
   font-weight: 300;
   color: white;
   cursor: default;
 }
 .senola-audio-player{
   list-style: none;
-}
-.senola-audio-info {
-  margin-left: -15px;
 }
 .senola-audio-player li {
   display: inline-block;
@@ -1910,6 +1910,8 @@ body:not(.post-template) .post-title {
   height: 190px;
   width: 190px;
   background-color: #1E2125;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 .senola-audio-cover img {
   position: absolute;
@@ -1954,6 +1956,10 @@ body:not(.post-template) .post-title {
       -webkit-animation: senola-music-play 5s linear infinite;
               animation: senola-music-play 5s linear infinite;
 }
+.senola-audio-info {
+  margin-left: -15px;
+  padding-top: 15px;
+}
 .senola-audio-info h1 {
   margin-top: 15px;
   margin-left: 180px;
@@ -1961,11 +1967,13 @@ body:not(.post-template) .post-title {
 }
 .senola-audio-info h4 {
   margin-left: 180px;
+  margin-top: 20px;
   line-height: 20px;
   color: #636367;
 }
 .senola-audio-info h2 {
   margin-left: 180px;
+  margin-top: 20px;
 }
 
 .senola-audio-button-items {
@@ -1975,6 +1983,7 @@ body:not(.post-template) .post-title {
 #senola-slider {
   width: 210px;
   height: 4px;
+  margin-top: 12px;
   background: #151518;
   border-radius: 2px;
 }
@@ -1989,6 +1998,7 @@ body:not(.post-template) .post-title {
 #senola-audio-timer {
   color: #494B4E;
   line-height: 0;
+  margin-top: 12px;
   font-size: 9pt;
   float: right;
   font-family: Arial, Sans-Serif;
