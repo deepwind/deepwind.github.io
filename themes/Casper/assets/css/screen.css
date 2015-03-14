@@ -2115,8 +2115,8 @@ body:not(.post-template) .post-title {
         width: 100px;
     }
     .senola-audio-info {
-        position: relative;
-        left: -70px;
+        position: absolute;
+        left: -30px;
         top: -8px;
     }
     .senola-audio-info h2 {
