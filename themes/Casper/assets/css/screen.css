@@ -2114,10 +2114,9 @@ body:not(.post-template) .post-title {
         width: 100px;
     }
     .senola-audio-info {
-        -webkit-transform: translateX(-70px) translateY(-8px);
-           -moz-transform: translateX(-70px) translateY(-8px);
-             -o-transform: translateX(-70px) translateY(-8px);
-                transform: translateX(-70px) translateY(-8px);
+        position: relative;
+        left: -66px;
+        top: -5px;
     }
     .senola-audio-info h2 {
         margin-top: 5px;
