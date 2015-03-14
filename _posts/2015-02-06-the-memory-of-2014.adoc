@@ -34,7 +34,7 @@
                 <source src="https://raw.githubusercontent.com/senola/music/master/skl.mp3" type="audio/mp3">
               </audio>
               <div id="senola-slider"><div id="senola-elapsed"></div></div>
-              <p id="senola-audio-timer">0:00</p>
+              <p id="senola-audio-timer">00:00</p>
               <div class="controls">
                 <span class="senola-audio-expend">
                   <svg class="step-backward" viewBox="0 0 25 25" xml:space="preserve">
