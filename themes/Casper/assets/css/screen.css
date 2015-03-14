@@ -1853,3 +1853,235 @@ body:not(.post-template) .post-title {
     from { background-position: 0 0; }
     to { background-position:  0 100%; }
 }
+
+/*音乐播放器样式*/
+.audio-player {
+  height: 190px;
+  width: 430px;
+  background-color: #1E2125;
+  position: absolute;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+.senola-audio-player{
+  list-style: none;
+}
+.senola-audio-info {
+  margin-left: -15px;
+}
+.senola-audio-player li {
+  display: inline-block;
+}
+
+.senola-audio-cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 190px;
+  width: 190px;
+  background-color: #1E2125;
+}
+.senola-audio-cover img {
+  position: absolute;
+  display: inline-block;
+  height: 125px;
+  width: 125px;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  border-radius: 50%;
+  border: 3px solid rgba(255, 255, 255, 0.32);
+}
+.senola-audio-cover svg {
+  padding: 0 3px;
+  width: 30px;
+  height: 30px;
+  x: 0px;
+  y: 0px;
+  enable-background: new 0 0 25 25;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+}
+.senola-audio-cover svg g {
+  stroke: #FEFEFE;
+  stroke-width: 1;
+  stroke-miterlimit: 10;
+}
+
+.senola-audio-cover svg g path{
+  fill: #FEFEFE;
+}
+
+.senola-audio-play img{
+  -webkit-moz-animation: senola-music-play 5s linear infinite;
+      -webkit-animation: senola-music-play 5s linear infinite;
+              animation: senola-music-play 5s linear infinite;
+}
+.senola-audio-info h1 {
+  margin-top: 15px;
+  margin-left: 180px;
+  line-height: 0;
+}
+.senola-audio-info h4 {
+  margin-left: 180px;
+  line-height: 20px;
+  color: #636367;
+}
+.senola-audio-info h2 {
+  margin-left: 180px;
+}
+
+.senola-audio-button-items {
+  margin-left: 180px;
+}
+
+#senola-slider {
+  width: 210px;
+  height: 4px;
+  background: #151518;
+  border-radius: 2px;
+}
+#senola-slider div {
+  width: 4px;
+  height: 4px;
+  margin-top: 1px;
+  background: #EF6DBC;
+  border-radius: 2px;
+}
+
+#senola-audio-timer {
+  color: #494B4E;
+  line-height: 0;
+  font-size: 9pt;
+  float: right;
+  font-family: Arial, Sans-Serif;
+}
+
+.senola-audio-button-items .controls {
+  margin-top: 20px;
+}
+.senola-audio-button-items .controls svg:nth-child(2) {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.senola-audio-player .audio-play {
+  padding: 0 3px;
+  width: 30px;
+  height: 30px;
+  x: 0px;
+  y: 0px;
+  enable-background: new 0 0 25 25;
+}
+.senola-audio-player .audio-play g {
+  stroke: #FEFEFE;
+  stroke-width: 1;
+  stroke-miterlimit: 10;
+}
+.senola-audio-player .audio-play g path {
+  fill: #FEFEFE;
+}
+
+.senola-audio-player .audio-play:hover {
+  cursor: pointer;
+}
+.senola-audio-player .audio-play:hover g {
+  stroke: #8F4DA9;
+  cursor: pointer;
+}
+.senola-audio-player .audio-play:hover g path {
+  fill: #9b59b6;
+  cursor: pointer;
+}
+
+.senola-audio-button-items .step-backward {
+  width: 18px;
+  height: 18px;
+  x: 0px;
+  y: 0px;
+  enable-background: new 0 0 25 25;
+  margin-bottom: 5px;
+  cursor: not-allowed;
+}
+.senola-audio-button-items .step-backward g polygon {
+  fill: #FEFEFE;
+}
+
+.senola-audio-button-items .step-foreward {
+  width: 18px;
+  height: 18px;
+  x: 0px;
+  y: 0px;
+  enable-background: new 0 0 25 25;
+  margin-bottom: 5px;
+  cursor: not-allowed;
+}
+.step-foreward g polygon {
+  fill: #FEFEFE;
+}
+
+.senola-audio-player .audio-pause {
+  x: 0px;
+  y: 0px;
+  enable-background: new 0 0 25 25;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  cursor: pointer;
+}
+.senola-audio-player .audio-pause rect {
+  fill: white;
+}
+
+.senola-audio-player .audio-pause:hover rect {
+  fill: #8F4DA9;
+  stroke: #8F4DA9;
+}
+
+.senola-audio-player .step-backward g polygon:hover, .step-foreward g polygon:hover {
+  fill: #EF6DBC;
+  cursor: pointer;
+}
+
+.senola-audio-player p {
+  color: #BDBDBD;
+}
+
+
+.senola-audio-expend {
+  padding: 0.5px;
+  cursor: pointer;
+}
+.senola-audio-expend svg:hover g polygon {
+  fill: #EF6DBC;
+}
+
+@-webkit-keyframes senola-music-play {
+  0%{-webkit-transform:rotate(0deg);}
+  50%{-webkit-transform:rotate(180deg);}
+  100%{-webkit-transform:rotate(360deg);}
+}
+@-moz-keyframes senola-music-play {
+  0%{-webkit-transform:rotate(0deg);}
+  50%{-webkit-transform:rotate(180deg);}
+  100%{-webkit-transform:rotate(360deg);}
+}
+@keyframes senola-music-play {
+  0%{-webkit-transform:rotate(0deg);}
+  50%{-webkit-transform:rotate(180deg);}
+  100%{-webkit-transform:rotate(360deg);}
+}
