@@ -2,7 +2,7 @@
 :hp-alt-title: the-audio-of-test
 :published_at: 2015-02-06
 :hp-image: https://raw.githubusercontent.com/senola/pictures/master/background/background7.jpg
-:hp-tags: 音乐 测试 fontend
+:hp-tags: Java, 编码
 
 ++++
 <div class="audio-player">
