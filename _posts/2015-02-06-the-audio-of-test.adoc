@@ -1,7 +1,6 @@
 = 音乐播放器
 :hp-alt-title: the-audio-of-test
 :published_at: 2015-02-06
-:hp-tags: music, audio
 :hp-image: https://raw.githubusercontent.com/senola/pictures/master/background/background7.jpg
 
 
@@ -32,8 +31,7 @@
           <h2>徐誉滕 - 写给童年的我.mp3</h2>
           <div class="senola-audio-button-items">
               <audio id="senola-audio-music" preload="auto" loop="false">
-                <source src="https://raw.githubusercontent.com/deepwind/audio/master/%E5%BE%90%E8%AA%89%E6%BB%95%20-%20%E5%86%99%E7%BB%99%E7%AB%A5%E5%B9%B4%E7%9A%84%E6%88%91.mp3" type="audio/mp3">
-                <source src="https://raw.githubusercontent.com/senola/music/master/skl.mp3" type="audio/mp3">
+                <source src="http://mp3hot.9ku.com/hot/2013/05-23/512798.mp3" type="audio/mp3">
               </audio>
               <div id="senola-slider"><div id="senola-elapsed"></div></div>
               <p id="senola-audio-timer">00:00</p>
