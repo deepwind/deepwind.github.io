@@ -1,0 +1,246 @@
+= AsciiDoc文档使用规则
+:hp-alt-title:  the-AsciiDoc-introduction
+:published_at: 2015-02-01
+:hp-tags: AsciiDoc,用法,说明
+:hp-image: https://raw.githubusercontent.com/senola/pictures/master/background/background18.jpg
+
+AsciiDoc文档使用规则
+
+= 1.分段
+:hardbreaks:
+
+This journey begins one late Monday afternoon in Antwerp.
+Our team desperately needs coffee, but none of us dare open the office door.
+
+To leave means code dismemberment and certain death.
+
+
+Rubies are red, +
+Topazes are blue.
+
+[%hardbreaks]
+Ruby is red.
+Java is black.
+
+:hardbreaks:
+
+Rubies are red,
+Topazes are blue.
+
+
+= 2.忠告
+
+NOTE: NOT ENOTE NOTE NOTE NOTE Wolpertingers are known to nest in server racks.   
+Enter at your own risk.
+
+TIP: TIP，TIP,TIP,TIPTIP   Wolpertingers are known to nest in server racks.   
+Enter at your own risk.   
+
+IMPORTANT: IMPORTANT  IMPORTANT IMPORTANT  Wolpertingers are known to nest in server racks.   
+Enter at your own risk.   
+
+WARNING: 警告，警告Wolpertingers are known to nest in server racks.   
+Enter at your own risk.
+
+CAUTION: 注意 注意  注意 Wolpertingers are known to nest in server racks.   
+Enter at your own risk.
+
+
+= 3.引用文本
+
+I can't believe it, we *won*!
+
+_italic phrase_
+
+__i__talic le__tt__ers
+
+*bold phrase*
+
+**b**old le**tt**ers
+
+*_bold italic phrase_*
+
+**__b__**old italic le**__tt__**ers
+
+`monospace phrase` and le``tt``ers
+
+`_monospace italic phrase_` and le``__tt__``ers
+
+`*monospace bold phrase*` and le``**tt**``ers
+
+`*_monospace bold italic phrase_*` and le``**__tt__**``ers
+
+The markup pass:[<u>下划线</u>] renders as underlined text.
+
+= Document Title (Level 0)
+
+== Level 1 Section
+
+=== Level 2 Section
+
+==== Level 3 Section
+
+===== Level 4 Section
+
+====== Level 5 Section
+
+== Another Level 1 Section
+
+
+[subs="verbatim,macros"] 
+----
+I better not contain *bold* or _italic_ text.
+pass:quotes[But I should contain *bold* text.] 
+----
+
+= 4.增加html标签
+
+Type the word [userinput]#asciidoc# into the search bar. 
+
+生成 
+Type the word <span class="userinput">asciidoc</span> into the search bar. 
+
+= 5. Preventing substitution
+\*Stars* will appear as *Stars*, not as bold text.
+
+\&sect; will appear as an entity reference, not the &sect; symbol.
+
+\\__func__ will appear as __func__, not as emphasized text.
+
+\{two-semicolons} will appear {two-semicolons}, not resolved as ;;.
+
+= 6 链接
+
+:hide-uri-scheme:
+https://deepwind.github.io/
+
+Let's view the raw HTML of the link:view-source:https://deepwind.github.io/[潭之风，怡也!].
+
+:linkattrs:
+
+Let's view the raw HTML of the link:view-source:http://deepwind.github.io[潭之风，怡也!, window="_blank"].
+
+= 7 图片
+
+image::https://raw.githubusercontent.com/senola/pictures/master/background/background26.jpg[Sunset]
+
+
+[[img-sunset]]
+.图片
+image::https://raw.githubusercontent.com/senola/pictures/master/background/background26.jpg[Sunset, 300, 200, link="https://raw.githubusercontent.com/senola/pictures/master/background/background26.jpg"]
+
+
+= 8.列表
+
+(1)  
+
+* Edgar Allen Poe
+* Sheri S. Tepper
+* Bill Bryson
+
+(2)
+
+.Kizmet's Favorite Authors
+* Edgar Allen Poe
+* Sheri S. Tepper
+* Bill Bryson
+
+(3)
+
+- Edgar Allen Poe
+- Sheri S. Tepper
+- Bill Bryson
+
+(4)
+
+* level 1
+** level 2
+*** level 3
+**** level 4
+***** level 5
+* level 1
+
+(5)
+. Protons
+. Electrons
+. Neutrons
+
+(6)
+
+CPU:: The brain of the computer.
+Hard drive:: Permanent storage for operating system and/or user files.
+RAM:: Temporarily stores information the CPU uses during operation.
+Keyboard:: Used to enter text or control items on the screen.
+Mouse:: Used to point to and select items on your computer screen.
+Monitor:: Displays information in visual form using text and graphics.
+
+(7)
+
+[horizontal]
+CPU:: The brain of the computer.
+Hard drive:: Permanent storage for operating system and/or user files.
+RAM:: Temporarily stores information the CPU uses during operation.
+
+(8)
+
+Dairy::
+* Milk
+* Eggs
+Bakery::
+* Bread
+Produce::
+* Bananas
+
+(9) 
+
+* The header in AsciiDoc is optional, but if
+it is used it must start with a document title.
+
+* Optional Author and Revision information
+immediately follows the header title.
+
+* The document header must be separated from
+  the remainder of the document by one or more
+  blank lines and cannot contain blank lines.
+
+
+(10) 
+
+* The header in AsciiDoc must start with a
+  document title.
++
+----
+= Document Title
+----
++
+NOTE: The header is optional.
+
+* Optional Author and Revision information
+  immediately follows the header title.
++
+----
+= Document Title
+Doc Writer <doc.writer@asciidoc.org>
+v1.0, 2013-01-01
+----
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
