@@ -1,7 +1,7 @@
 = 若是美好，叫做精彩
 :hp-alt-title: if-good-that-splendid
 :published_at: 2015-03-05 
-:hp-tags:  mood, inspiration,
+:hp-tags:  mood , inspiration ,
 :hp-image: https://raw.githubusercontent.com/deepwind/images/master/blog/0165574c.jpg
 
 想做的事情，就在今天去做吧。
