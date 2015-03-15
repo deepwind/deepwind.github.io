@@ -1,5 +1,5 @@
-= the-audio-of-test
-:hp-post-title: 音乐播放器测试
+= 音乐播放器
+:hp-alt-title: the-audio-of-test
 :published_at: 2015-02-06
 :hp-image: https://raw.githubusercontent.com/senola/pictures/master/background/background7.jpg
 
