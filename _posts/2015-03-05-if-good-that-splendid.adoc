@@ -1,5 +1,5 @@
-= if-good-that-splendid  
-:hp-post-title: 若是美好，叫做精彩
+= 若是美好，叫做精彩
+:hp-alt-title: if-good-that-splendid
 :published_at: 2015-03-05
 :hp-tags: 感悟, 触动, 美好
 :hp-image: https://raw.githubusercontent.com/deepwind/images/master/blog/0165574c.jpg
