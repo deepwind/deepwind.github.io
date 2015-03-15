@@ -1,5 +1,5 @@
-= the-AsciiDoc-introduction
-:hp-post-title:  AsciiDoc文档使用规则
+= AsciiDoc文档使用规则
+:hp-post-title:  the-AsciiDoc-introduction
 :published_at: 2015-02-01
 :hp-tags: AsciiDoc,用法,说明
 :hp-image: https://raw.githubusercontent.com/senola/pictures/master/background/background18.jpg
