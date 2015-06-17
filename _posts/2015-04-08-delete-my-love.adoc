@@ -1,4 +1,4 @@
-= Delete...222
+= Delete...
 :hp-alt-title: delete-my-love
 :published_at: 2015-04-08
 :hp-tags: lover, delete
