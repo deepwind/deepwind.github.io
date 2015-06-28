@@ -1,5 +1,5 @@
 = 泰之旅
-:hp-alt-title:the-travwl-of-thailand
+:hp-alt-title: the-travwl-of-thailand
 :published_at: 2015-06-28
 :hp-tags: thailand, travel, June
 :hp-image: http://i1090.photobucket.com/albums/i374/senola/pujidao/me.jpg
