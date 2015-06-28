@@ -1825,7 +1825,7 @@ body:not(.post-template) .post-title {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    border: rgba(105, 99, 95, 0.21) 0.4em solid;
+    border: rgba(215, 206, 200, 0.21) 4px solid;
     background-color: rgba(105, 99, 95, 0.21);
 }
 /*文章标题大小*/
