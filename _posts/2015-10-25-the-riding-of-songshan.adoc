@@ -2,7 +2,7 @@
 :hp-alt-title: the-riding-of-songshan
 :published_at: 2015-10-25
 :hp-tags: riding, 2015, travel
-:hp-image: http://7xi3m0.com1.z0.glb.clouddn.com/background/松山湖哦畔.JPG
+:hp-image: http://7xi3m0.com1.z0.glb.clouddn.com/background/song-shan-title.JPG
 
 金秋之月，一行人结伴向东莞，不为别的，只为欣赏一下松山湖的秋姿和松解下工作的倦意。
 
